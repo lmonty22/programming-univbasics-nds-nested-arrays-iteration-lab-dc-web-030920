@@ -17,9 +17,9 @@ def join_ingredients(src)
 
 array = [] 
 src.collect do |food_array| 
-  array.push("I love #{food_array[0]} and #{food_array[1]} on my pizza")
+  ("I love #{food_array[0]} and #{food_array[1]} on my pizza")
 end 
-array
+# array
 end
 
 def find_greater_pair(src)
