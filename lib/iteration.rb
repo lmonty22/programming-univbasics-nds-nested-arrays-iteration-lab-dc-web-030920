@@ -14,7 +14,7 @@ def join_ingredients(src)
 # end 
 # array
 array = [] 
-src.collect do |food_arrays| 
+src.collect do |food_array| 
   array.push("I love #{food_array[0]} and #{food_array[1]} on my pizza")
 end 
 array
