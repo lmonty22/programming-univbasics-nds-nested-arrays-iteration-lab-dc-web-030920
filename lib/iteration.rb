@@ -15,7 +15,7 @@ def join_ingredients(src)
 # end 
 # array
 
-src.collect do |food_array| # collect creates a new array for us so we don't have to :) 
+src.map do |food_array| # collect creates a new array for us so we don't have to :) 
   ("I love #{food_array[0]} and #{food_array[1]} on my pizza")
 end 
 end
