@@ -39,4 +39,10 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
 #this 
+total = 0 
+src.each do |number_pairs|
+  if number_pairs[0].even? && number_pairs[1].even? 
+    total += number_pairs[0] + number_pairs[1]
+  end 
+end 
 end
