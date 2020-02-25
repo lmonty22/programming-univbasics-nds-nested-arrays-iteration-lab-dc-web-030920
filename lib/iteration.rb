@@ -7,6 +7,7 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
 
+#As a while loop. 
 # array = []
 # index = 0 
 # while index < src.length do 
@@ -14,6 +15,7 @@ def join_ingredients(src)
 #   index += 1 
 # end 
 # array
+#end
 
 src.map do |food_array| # collect/map creates a new array for us so we don't have to :) 
   "I love #{food_array[0]} and #{food_array[1]} on my pizza"
