@@ -45,4 +45,5 @@ src.each do |number_pairs|
     total += number_pairs[0] + number_pairs[1]
   end 
 end 
+total
 end
