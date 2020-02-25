@@ -27,7 +27,7 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   src.map do |number_pairs|
-    number_pairs.max(1)
+    number_pairs.max()
   end
 end
 
